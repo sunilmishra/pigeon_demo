@@ -39,7 +39,9 @@ A simple demonstration of [pigeon](https://pub.dev/packages/pigeon) library. Pig
 
 - Run pigeon on your `.dart` file to generate the required Dart and host-language code: `flutter pub get` then `flutter pub run pigeon` with suitable arguments.
 
-- Add the generated Dart code to `./lib` for compilation.
+  - it will generate `Tweet.g.dart`, `Tweet.g.kt` and `Tweet.g.swift` for         respective platform `Flutter`, `Android`, and `iOS`.
+
+- Add the generated Dart code to `./lib` for compilation. ie `tweet.g.dart`
 
 - Implement the host-language code and add it to your build
 
